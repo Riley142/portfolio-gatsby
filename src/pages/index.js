@@ -24,7 +24,7 @@ const IndexPage = () => (
         </h1>
         
         <h3>
-          Main languages I work with:
+          Main languages I work with
         </h3>
 
           <IconContext.Provider
