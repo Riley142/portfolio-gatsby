@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.links a {
+    padding: 15px 5px;
+    font-weight: 700;
+}
+.links a:hover{
+    transform: scale(1.1);
+}
+.links a:first-child {
+    color:  #f7a727;
+}
+.links a:nth-child(2) {
+    color:  #d86644;
+}
+.links a:nth-child(3) {
+    color:  #C73283;
+}
+.links a:nth-child(4) {
+    color:  #8641D4;
+}
+.nav-icons{
+    margin: 0 10px 0 0;
+} 
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
