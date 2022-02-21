@@ -217,9 +217,6 @@ yellow - #FFCA75
         width: auto;
     }
 
-    .about-me { 
-        height: auto;    
-    }
     .about-me-wrapper { 
         width: 90%;
         margin-top: 50px;
@@ -272,7 +269,28 @@ yellow - #FFCA75
 }
 
 @media only screen and (max-width: 600px) {
+    .home, .about-me, .projects-page-wrapper, .project-page{
+       height: auto;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .home-text, .projects-page-wrapper {
+        margin-top: 100px;
+    }
+
     .projects-cards { 
         grid-template-columns: repeat(1, 1fr); 
+    }
+    .card {
+        width: 310px;
+    }
+    .card h3 {
+        font-size: 20px;
+    }
+    .cards-icons h5 {
+        font-size: 12px;
+    }
+    .cards-icons {
+        gap:15px;
     }
 }
