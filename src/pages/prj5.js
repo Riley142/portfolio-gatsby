@@ -32,6 +32,10 @@ const Prj5 = () => (
         and sends them using websockets, which can later be display in the User
         Interface.
       </p>
+      <p>
+        I've also built a linux .deb package of the program, to run it on the router.
+        Also opened port the speed test program is running on using IP tables on the device.
+      </p>
       <h4>Things done in the project :</h4>
       <ul>
         <li>Research different Speed Tests work</li>

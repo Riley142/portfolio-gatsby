@@ -54,7 +54,7 @@ const Projects = () => (
         </div>
 
         <div className="card">
-            <h3>Program to collecting thermal data from the routers</h3>
+            <h3>Program to collect thermal data from the routers</h3>
             <hr/>
             <IconContext.Provider
           value={{ 

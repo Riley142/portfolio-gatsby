@@ -11,7 +11,7 @@ const Prj2 = () => (
   <Layout>
     <Seo title="Project - Modem watcher" />
     <div className="project-page">
-      <h3>Watcher to monitor connected devices</h3>
+      <h3>Program to collect thermal data from the routers</h3>
       <hr />
       <IconContext.Provider
         value={{

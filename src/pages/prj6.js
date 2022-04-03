@@ -40,7 +40,6 @@ const Prj6 = () => (
         </div>
       </IconContext.Provider>
       <hr />
-      <p>I'm Currently working on this project - not finished</p>
       <p>
         In this project I’ve built the user interface for the speed test
         service. I’ve connected the speed test service program with speed test
@@ -48,12 +47,11 @@ const Prj6 = () => (
       </p>
       <h4>Things done in the project :</h4>
       <ul>
-        <li>Discuss the design & UI</li>
+        <li>Discussing the design & UI</li>
         <li>Join the Front End, with Speed Test Service & the Server</li>
         <li>Write front end code</li>
         <li>Use D3js to create SVGs for the speed test clock</li>
-        <p>To do:</p>
-        <li>Unit tests for the UI using Jest</li>
+        <li>Written unit tests for the UI using Jest</li>
         <li>Deploy a updated version of BeeView with speed test</li>
       </ul>
     </div>

@@ -10,7 +10,7 @@ const Prj3 = () => (
   <Layout>
     <Seo title="Project - Modem watcher" />
     <div className="project-page">
-      <h3>Watcher to monitor connected devices</h3>
+      <h3>Grafana dashboards, for monitoring router stats</h3>
       <hr />
       <IconContext.Provider
         value={{
